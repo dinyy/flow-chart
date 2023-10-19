@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T15:16:15.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="atbONUNrYQG9ts6vXNmO" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T15:17:32.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="kxoA9REknwlY2-ogUYkn" version="22.0.5" type="github">
   <diagram name="第 1 页" id="53_ZCxeH3DbTyFZRHUCh">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,8 +104,14 @@
         <mxCell id="dl15iPdyQXdBy3xzlY7A-9" value="enqueue一条命令从buffer中读取数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dl15iPdyQXdBy3xzlY7A-11" value="输出结果" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="dl15iPdyQXdBy3xzlY7A-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dl15iPdyQXdBy3xzlY7A-11" target="dl15iPdyQXdBy3xzlY7A-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dl15iPdyQXdBy3xzlY7A-11" value="释放资源" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dl15iPdyQXdBy3xzlY7A-13" value="输出结果" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
